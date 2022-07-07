@@ -1,6 +1,6 @@
 require 'pry'
 
-ARR_CLEANER = [',', '.', ';', '\'', '!', '“', '”' '(', ')', '?', ' to ', ' a ', ' is ', ' of ', ' the ']
+ARR_CLEANER = [',', '.', ';', '\'', '!', '“', '”', '(', ')', '?', ' to ', ' a ', ' is ', ' of ', ' the '].freeze
 words_hash = {}
 
 f = File.open('word_counter.txt', 'r')
